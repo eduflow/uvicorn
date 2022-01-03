@@ -46,7 +46,7 @@ env_marker_below_37 = "python_version < '3.7'"
 env_marker_gte_37 = "python_version >= '3.7'"
 
 minimal_requirements = [
-    "asgiref>=3.4.0",
+    "asgiref>=3.3.4",
     "click>=7.0",
     "h11>=0.8",
     "typing-extensions;" + env_marker_below_38,
